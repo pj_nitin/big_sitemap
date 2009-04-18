@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Alex Rabarts"]
   s.date = %q{2009-04-17}
-  s.description = %q{A Sitemap generator specifically designed for large sites (although it works equally well with small sites)}
+  s.description = %q{(Now depends on activesupport) A Sitemap generator specifically designed for large sites (although it works equally well with small sites)}
   s.email = %q{alexrabarts@gmail.com}
   s.extra_rdoc_files = ["README.rdoc", "LICENSE"]
   s.files = ["History.txt", "README.rdoc", "VERSION.yml", "lib/big_sitemap.rb", "test/big_sitemap_test.rb", "test/fixtures", "test/fixtures/test_model.rb", "test/test_helper.rb", "LICENSE"]
