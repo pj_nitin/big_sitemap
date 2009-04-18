@@ -10,7 +10,8 @@ begin
     s.description = "A Sitemap generator specifically designed for large sites (although it works equally well with small sites)"
     s.authors = ["Alex Rabarts"]
     s.add_dependency 'builder', ['>=2.1.2']
-    s.add_dependency 'extlib', ['>=0.9.9']
+    # s.add_dependency 'extlib', ['>=0.9.9']
+    s.add_dependency 'activesupport'
   end
 rescue LoadError
   puts "Jeweler not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"

@@ -24,13 +24,16 @@ Gem::Specification.new do |s|
 
     if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<builder>, [">= 2.1.2"])
-      s.add_runtime_dependency(%q<extlib>, [">= 0.9.9"])
+      s.add_dependency(%q<activesupport>)
+      # s.add_runtime_dependency(%q<extlib>, [">= 0.9.9"])
     else
       s.add_dependency(%q<builder>, [">= 2.1.2"])
-      s.add_dependency(%q<extlib>, [">= 0.9.9"])
+      s.add_dependency(%q<activesupport>)
+      # s.add_dependency(%q<extlib>, [">= 0.9.9"])
     end
   else
     s.add_dependency(%q<builder>, [">= 2.1.2"])
-    s.add_dependency(%q<extlib>, [">= 0.9.9"])
+    # s.add_dependency(%q<extlib>, [">= 0.9.9"])
+    s.add_dependency(%q<activesupport>)
   end
 end
